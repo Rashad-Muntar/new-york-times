@@ -2,3 +2,17 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#comment-btn {
+  background-color: rgb(86, 123, 149);
+  color: white;
+}
+
+article,
+h5 {
+  font-family: nyt-imperial, georgia, 'times new roman', imes, serif;
+}
+
+#inflation-section p {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
