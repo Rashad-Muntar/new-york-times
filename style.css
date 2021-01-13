@@ -16,3 +16,60 @@ h5 {
 #inflation-section p {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
+
+nav {
+  border: 1px solid lightgray;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 20px;
+}
+
+nav .main-logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-center-items {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .nav-center-items p{ 
+  border-left: 1px solid gray;
+  height: 17px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+nav .nav-center-items h5 {
+  padding-right: 5px;
+}
+
+nav .nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 17%;
+}
+
+nav .nav-icons .no-div-icon{
+  font-size: 1.5em;
+  color: gray;
+}
+
+nav .nav-icons span {
+  background: lightgray;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
