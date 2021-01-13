@@ -43,6 +43,7 @@ nav .nav-center-items {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-basis: 17%;
 }
 
 nav .nav-center-items h5 {
@@ -70,4 +71,22 @@ nav .nav-icons span {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+nav .nav-buttons {
+  display: flex;
+  flex-basis: 14.3%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .nav-buttons button {
+  background: rgb(86, 123, 149);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 0.7em;
+  padding: 5px 10px;
 }
