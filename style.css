@@ -4,8 +4,32 @@ body {
 }
 
 #comment-btn {
-  background-color: rgb(86, 123, 149);
+  background: rgb(86, 123, 149);
   color: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 5px 100px;
+}
+
+article {
+  width: 45vw;
+  margin: 0 auto;
+}
+
+#title-header {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#main-title {
+  font-style: italic;
+  font-size: 2.5em;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
 }
 
 article,
@@ -13,11 +37,58 @@ h5 {
   font-family: nyt-imperial, georgia, 'times new roman', imes, serif;
 }
 
+article p {
+  font-size: 1.2em;
+  line-height: 1.7;
+  color: #333;
+}
+
+article a {
+  color: rgb(50, 104, 145);
+}
+
+.unlock-more-articles {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.unlock-more-articles hr {
+  width: 20%;
+  border: 0.1px solid lightgray;
+}
+
+.unlock-more-articles p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.cooking-sign-up div p {
+  width: 75%;
+}
+
 nav .nav-center-items p {
   border-left: 1px solid gray;
   height: 17px;
   align-items: center;
   padding-left: 5px;
+}
+
+.theory-of-inflation-section div div p {
+  width: 23%;
+  font-size: 0.8em;
+}
+
+.unlock-more-articles p:first-child {
+  margin-bottom: 0;
+}
+
+.unlock-more-articles p:last-child {
+  margin-top: 0;
+}
+
+.unlock-more-articles a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
 }
 
 #inflation-section p {
@@ -50,21 +121,21 @@ nav .nav-center-items h5 {
   padding-right: 5px;
 }
 
-nav .nav-icons {
+.social-icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  width: 17%;
+  width: 35%;
 }
 
-nav .nav-icons .no-div-icon {
+.social-icons .no-div-icon {
   font-size: 1.5em;
   color: gray;
 }
 
-nav .nav-icons span {
-  background: lightgray;
+.social-icons span {
+  background: #ececec;
   height: 30px;
   width: 30px;
   border-radius: 15px;
@@ -80,6 +151,17 @@ nav .nav-buttons {
   justify-content: space-between;
 }
 
+.cooking-sign-up div button {
+  padding: 5px;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 17%;
+  height: 30px;
+}
+
 nav .nav-buttons button {
   background: rgb(86, 123, 149);
   color: white;
@@ -89,4 +171,174 @@ nav .nav-buttons button {
   font-weight: bold;
   font-size: 0.7em;
   padding: 5px 10px;
+}
+
+.first-section figure {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+figure figcaption {
+  color: gray;
+  width: 80%;
+}
+
+.first-section figure figcaption span {
+  font-size: 0.8em;
+}
+
+.first-section article a {
+  color: #222;
+}
+
+.editors-pick-section {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editors-pick-section div {
+  width: 76%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editors-pick-section article {
+  width: 60%;
+}
+
+.editors-pick-section aside {
+  width: 30%;
+}
+
+.editors-pick-section div aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.editors-pick-section div aside h4 {
+  border-bottom: 1px solid lightgray;
+  border-bottom-width: thin;
+  padding-bottom: 10px;
+}
+
+.cooking-sign-up div {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-btn-div div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.theory-of-inflation-section div div {
+  position: relative;
+  top: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.editors-pick-section div aside div {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.special-time-article-section small a {
+  color: #767676;
+}
+
+.editors-pick-section div aside div a {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.theory-of-inflation-section {
+  width: 65vw;
+  margin: 0 auto;
+}
+
+.larry-jonathan-heading {
+  width: 65vw;
+  margin: 0 auto;
+  margin-top: 170px;
+}
+
+.larry-jonathan-heading hr {
+  width: 7%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #767676;
+}
+
+.theory-of-inflation-section figure figcaption {
+  color: #767676;
+}
+
+.larry-jonathan-section {
+  padding-top: 20px;
+}
+
+.cooking-sign-up {
+  width: 45vw;
+  margin: 0 auto;
+}
+
+.youtube-embed {
+  width: 45vw;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.space-station-figure {
+  width: 45vw;
+  margin: 0 auto;
+}
+
+.special-time-article-section small {
+  color: #767676;
+}
+
+.comment-btn-div {
+  padding: 30px;
+  width: 45vw;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: white;
+  border-top: 1px solid gray;
+  margin-top: 30px;
+}
+
+.bigger-footer {
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.footer-logo-and-home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.go-to-home {
+  color: rgb(50, 104, 145);
+}
+
+.theory-of-inflation-section figure {
+  margin: 0 auto;
+  position: absolute;
+  z-index: -1;
+  width: 65%;
+}
+
+.first-four {
+  margin-bottom: 130px;
 }
