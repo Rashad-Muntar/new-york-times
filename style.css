@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-#comment-btn {
+.comment-btn {
   background: rgb(86, 123, 149);
   color: white;
   border: none;
@@ -19,13 +19,13 @@ article {
   margin: 0 auto;
 }
 
-#title-header {
+.title-header {
   width: 50%;
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
-#main-title {
+.main-title {
   font-style: italic;
   font-size: 2.5em;
   border-bottom: 1px solid lightgray;
@@ -66,6 +66,7 @@ article a {
   width: 75%;
 }
 
+
 nav .nav-center-items p {
   border-left: 1px solid gray;
   height: 17px;
@@ -91,9 +92,9 @@ nav .nav-center-items p {
   color: rgb(50, 104, 145);
 }
 
-#inflation-section p {
+/* #inflation-section p {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
-}
+} */
 
 nav {
   border: 1px solid lightgray;
@@ -119,6 +120,11 @@ nav .nav-center-items {
 
 nav .nav-center-items h5 {
   padding-right: 5px;
+}
+
+nav .nav-center-items a {
+  text-decoration: none;
+  color: black;
 }
 
 .social-icons {
