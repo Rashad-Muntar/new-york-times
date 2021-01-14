@@ -62,10 +62,9 @@ article a {
   font-weight: bold;
 }
 
-.cooking-sign-up div p {
+.cooking-sign-up section p {
   width: 75%;
 }
-
 
 nav .nav-center-items p {
   border-left: 1px solid gray;
@@ -74,7 +73,7 @@ nav .nav-center-items p {
   padding-left: 5px;
 }
 
-.theory-of-inflation-section div div p {
+.theory-of-inflation-section section section p {
   width: 23%;
   font-size: 0.8em;
 }
@@ -157,7 +156,7 @@ nav .nav-buttons {
   justify-content: space-between;
 }
 
-.cooking-sign-up div button {
+.cooking-sign-up section button {
   padding: 5px;
   font-weight: bold;
   background-color: white;
@@ -204,7 +203,7 @@ figure figcaption {
   justify-content: flex-end;
 }
 
-.editors-pick-section div {
+.editors-pick-section section {
   width: 76%;
   display: flex;
   justify-content: flex-end;
@@ -218,38 +217,56 @@ figure figcaption {
   width: 30%;
 }
 
-.editors-pick-section div aside {
+.new-letter-and-popular-wrapper aside {
+  width: 25%;
+}
+
+.new-letter-and-popular-wrapper aside a {
+  text-decoration: none;
+  font-size: 1.3em;
+  margin: 15px 0;
+
+  color: black;
+}
+
+.new-letter-and-popular-wrapper aside h5 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.editors-pick-section section aside {
   display: flex;
   flex-direction: column;
 }
 
-.editors-pick-section div aside h4 {
+.editors-pick-section section aside h4 {
   border-bottom: 1px solid lightgray;
   border-bottom-width: thin;
   padding-bottom: 10px;
 }
 
-.cooking-sign-up div {
+
+.cooking-sign-up section {
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.comment-btn-div div {
+.comment-btn-div section {
   display: flex;
   justify-content: space-between;
 }
 
-.theory-of-inflation-section div div {
+.theory-of-inflation-section section section {
   position: relative;
-  top: 150px;
+  top: 170px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.editors-pick-section div aside div {
+.editors-pick-section section aside section {
   margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
@@ -260,7 +277,7 @@ figure figcaption {
   color: #767676;
 }
 
-.editors-pick-section div aside div a {
+.editors-pick-section section aside section a {
   margin-left: 10px;
   color: black;
   text-decoration: none;
@@ -318,21 +335,6 @@ figure figcaption {
   margin: 0 auto;
 }
 
-footer {
-  background-color: white;
-  border-top: 1px solid gray;
-  margin-top: 30px;
-}
-
-.bigger-footer {
-  width: 95vw;
-  margin: 0 auto;
-}
-
-.footer-logo-and-home {
-  display: flex;
-  justify-content: space-between;
-}
 
 .go-to-home {
   color: rgb(50, 104, 145);
@@ -346,5 +348,281 @@ footer {
 }
 
 .first-four {
-  margin-bottom: 130px;
+  margin-bottom: 190px;
 }
+
+/* more in space section stylinh */
+.new-letter-and-popular-wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-in-space-news-letter {
+  width: 70%;
+}
+
+.news-letter-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-letter-heading p {
+  color: gray;
+}
+
+.news-letter-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-letter-cards .child-card {
+  width: 32%;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  padding: 15px 15px;
+
+}
+
+.news-letter-cards .child-card a {
+  text-decoration: none;
+  
+}
+
+.news-letter-cards .child-card i {
+  font-size: 2em;
+  color: black;
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  padding: 5px 5px 5px 10px;
+}
+
+.news-letter-cards .child-card .img-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-letter-cards .child-card h5 {
+  font-weight: 600;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: black;
+
+}
+
+.news-letter-cards .child-card p {
+  color: gray;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.news-letter-cards .child-card small {
+  color: gray;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.news-letter-cards .child-card .card-content-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.news-letter-cards .child-card .see-latest {
+ bottom: 0;
+ left: 0;
+ position: absolute;
+ font-weight: 700;
+ color: rgb(50, 104, 145);
+}
+
+.more-in-space{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.more-in-space a {
+  width: 31%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+.more-in-space a img{
+  width: 100%;
+}
+
+.more-in-space a p{
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.more-in-space-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  padding: 10px 0;
+}
+
+.new-letter-and-popular-wrapper hr {
+  margin-top: 25px;
+  border: 1px solid black;
+  background: black;
+ 
+}
+
+.editors-pick-section-2 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.editors-pick-section-2 a {
+  width: 31%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+.editors-pick-section-2 a img{
+  width: 100%;
+}
+
+.editors-pick-section-2 a small{
+  color: gray;
+}
+
+.editors-pick-section-2 a p{
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+ .description{
+  text-align: right;
+  width: 100%;
+  display: block;
+}
+
+/* footer styling  */
+
+footer {
+  width: 95vw;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+.bigger-footer {
+  width: 95vw;
+  margin: 0 auto;
+  height: 460px;
+}
+.bigger-footer-top-hr {
+  width: 80vw;
+  margin-bottom: 1px;
+}
+
+.footer-logo-and-home {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  padding-top: 30px;
+}
+
+
+
+
+footer .footer-links-wrapper {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+footer .footer-links-wrapper section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-links-wrapper section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-links-wrapper section a {
+  text-decoration: none;
+  color: black;
+  padding: 2px 0;
+}
+
+footer .footer-links-wrapper .subscribe {
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+  height: 400px;
+}
+
+footer .footer-links-wrapper .subscribe a h5 {
+  margin: 0;
+  padding: 0;
+  padding: 5px 0;
+}
+
+
+.footer-subscribe-mini-section {
+  border-top: 1px solid lightgray;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.small-footer {
+  width: 84%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-top: 1px solid lightgray;
+  margin-top: 15px;
+}
+
+.small-footer  ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-footer  ul li {
+  list-style: none;
+  color: gray;
+  font-size: 0.9em;
+  flex: 1;
+}
+
+.small-footer  ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.small-footer  ul li:first-child {
+  flex: 3;
+}
+
+.small-footer  ul .terms {
+  flex: 1;
+}
+
+
