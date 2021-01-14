@@ -62,6 +62,10 @@ article a {
   font-weight: bold;
 }
 
+.news-letter-heading p {
+  color: gray;
+}
+
 .cooking-sign-up section p {
   width: 75%;
 }
@@ -71,6 +75,20 @@ nav .nav-center-items p {
   height: 17px;
   align-items: center;
   padding-left: 5px;
+}
+
+.more-in-space a p {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.editors-pick-section-2 a p {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
 }
 
 .theory-of-inflation-section section section p {
@@ -119,6 +137,20 @@ nav .nav-center-items {
 
 nav .nav-center-items h5 {
   padding-right: 5px;
+}
+
+.more-in-space a {
+  width: 31%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+.editors-pick-section-2 a {
+  width: 31%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
 }
 
 nav .nav-center-items a {
@@ -225,7 +257,6 @@ figure figcaption {
   text-decoration: none;
   font-size: 1.3em;
   margin: 15px 0;
-
   color: black;
 }
 
@@ -244,7 +275,6 @@ figure figcaption {
   border-bottom-width: thin;
   padding-bottom: 10px;
 }
-
 
 .cooking-sign-up section {
   height: 100%;
@@ -266,6 +296,12 @@ figure figcaption {
   flex-wrap: wrap;
 }
 
+footer .footer-links-wrapper section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 .editors-pick-section section aside section {
   margin-bottom: 15px;
   display: flex;
@@ -275,6 +311,17 @@ figure figcaption {
 
 .special-time-article-section small a {
   color: #767676;
+}
+
+footer .footer-links-wrapper section a {
+  text-decoration: none;
+  color: black;
+  padding: 2px 0;
+}
+
+.small-footer ul li a {
+  text-decoration: none;
+  color: gray;
 }
 
 .editors-pick-section section aside section a {
@@ -335,7 +382,6 @@ figure figcaption {
   margin: 0 auto;
 }
 
-
 .go-to-home {
   color: rgb(50, 104, 145);
 }
@@ -368,10 +414,6 @@ figure figcaption {
   justify-content: space-between;
 }
 
-.news-letter-heading p {
-  color: gray;
-}
-
 .news-letter-cards {
   display: flex;
   justify-content: space-between;
@@ -382,12 +424,10 @@ figure figcaption {
   box-sizing: border-box;
   border: 1px solid lightgray;
   padding: 15px 15px;
-
 }
 
 .news-letter-cards .child-card a {
   text-decoration: none;
-  
 }
 
 .news-letter-cards .child-card i {
@@ -413,7 +453,6 @@ figure figcaption {
   margin-top: 5px;
   margin-bottom: 10px;
   color: black;
-
 }
 
 .news-letter-cards .child-card p {
@@ -421,6 +460,10 @@ figure figcaption {
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
+}
+
+.editors-pick-section-2 a small {
+  color: gray;
 }
 
 .news-letter-cards .child-card small {
@@ -435,36 +478,15 @@ figure figcaption {
 }
 
 .news-letter-cards .child-card .see-latest {
- bottom: 0;
- left: 0;
- position: absolute;
- font-weight: 700;
- color: rgb(50, 104, 145);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  font-weight: 700;
+  color: rgb(50, 104, 145);
 }
 
-.more-in-space{
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.more-in-space a {
-  width: 31%;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: black;
-}
-
-.more-in-space a img{
+.more-in-space a img {
   width: 100%;
-}
-
-.more-in-space a p{
-  font-weight: 600;
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0;
 }
 
 .more-in-space-link {
@@ -478,7 +500,6 @@ figure figcaption {
   margin-top: 25px;
   border: 1px solid black;
   background: black;
- 
 }
 
 .editors-pick-section-2 {
@@ -488,29 +509,11 @@ figure figcaption {
   flex-wrap: wrap;
 }
 
-.editors-pick-section-2 a {
-  width: 31%;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: black;
-}
-
-.editors-pick-section-2 a img{
+.editors-pick-section-2 a img {
   width: 100%;
 }
 
-.editors-pick-section-2 a small{
-  color: gray;
-}
-
-.editors-pick-section-2 a p{
-  font-weight: 600;
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0;
-}
-
- .description{
+.description {
   text-align: right;
   width: 100%;
   display: block;
@@ -524,12 +527,12 @@ footer {
   margin-top: 50px;
 }
 
-
 .bigger-footer {
   width: 95vw;
   margin: 0 auto;
   height: 460px;
 }
+
 .bigger-footer-top-hr {
   width: 80vw;
   margin-bottom: 1px;
@@ -544,31 +547,10 @@ footer {
   padding-top: 30px;
 }
 
-
-
-
 footer .footer-links-wrapper {
   display: flex;
   width: 80vw;
   margin: 0 auto;
-}
-
-footer .footer-links-wrapper section {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-footer .footer-links-wrapper section {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-footer .footer-links-wrapper section a {
-  text-decoration: none;
-  color: black;
-  padding: 2px 0;
 }
 
 footer .footer-links-wrapper .subscribe {
@@ -585,7 +567,6 @@ footer .footer-links-wrapper .subscribe a h5 {
   padding: 5px 0;
 }
 
-
 .footer-subscribe-mini-section {
   border-top: 1px solid lightgray;
   padding-top: 5px;
@@ -600,29 +581,22 @@ footer .footer-links-wrapper .subscribe a h5 {
   margin-top: 15px;
 }
 
-.small-footer  ul {
+.small-footer ul {
   display: flex;
   justify-content: space-between;
 }
 
-.small-footer  ul li {
+.small-footer ul li {
   list-style: none;
   color: gray;
   font-size: 0.9em;
   flex: 1;
 }
 
-.small-footer  ul li a {
-  text-decoration: none;
-  color: gray;
-}
-
-.small-footer  ul li:first-child {
+.small-footer ul li:first-child {
   flex: 3;
 }
 
-.small-footer  ul .terms {
+.small-footer ul .terms {
   flex: 1;
 }
-
-
