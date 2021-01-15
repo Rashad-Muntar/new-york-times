@@ -203,6 +203,7 @@ nav .nav-buttons {
   flex-basis: 14.3%;
   align-items: center;
   justify-content: space-between;
+  margin-right: 40px;
 }
 
 .cooking-sign-up section button {
