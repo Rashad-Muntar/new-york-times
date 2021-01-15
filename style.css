@@ -77,6 +77,16 @@ nav .nav-center-items p {
   padding-left: 5px;
 }
 
+.more-in-space {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.more-in-space small {
+  color: gray;
+}
+
 .more-in-space a p {
   font-weight: 600;
   font-size: 1.2em;
@@ -120,11 +130,19 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 3px 20px;
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 10;
 }
 
 nav .main-logo {
   display: flex;
   align-items: center;
+}
+
+main {
+  padding-top: 75px;
 }
 
 nav .nav-center-items {
@@ -147,7 +165,6 @@ nav .nav-center-items h5 {
 }
 
 .editors-pick-section-2 a {
-  width: 31%;
   box-sizing: border-box;
   text-decoration: none;
   color: black;
@@ -229,7 +246,7 @@ figure figcaption {
 }
 
 .editors-pick-section {
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
@@ -237,12 +254,13 @@ figure figcaption {
 
 .editors-pick-section section {
   width: 76%;
-  display: flex;
-  justify-content: flex-end;
 }
 
+/* CSS float property applied here */
 .editors-pick-section article {
-  width: 60%;
+  width: 63%;
+  float: left;
+  margin-left: 25px;
 }
 
 .editors-pick-section aside {
@@ -265,7 +283,9 @@ figure figcaption {
   font-weight: 600;
 }
 
+/* CSS float property applied here */
 .editors-pick-section section aside {
+  float: right;
   display: flex;
   flex-direction: column;
 }
@@ -394,7 +414,7 @@ footer .footer-links-wrapper section a {
 }
 
 .first-four {
-  margin-bottom: 190px;
+  margin-bottom: 100px;
 }
 
 /* more in space section stylinh */
@@ -502,11 +522,13 @@ footer .footer-links-wrapper section a {
   background: black;
 }
 
+/* Grid CSS model applied here */
+
 .editors-pick-section-2 {
   margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1.5em;
 }
 
 .editors-pick-section-2 a img {
