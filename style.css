@@ -1,0 +1,708 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.comment-btn {
+  background: rgb(86, 123, 149);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 5px 100px;
+}
+
+article {
+  width: 45vw;
+  margin: 0 auto;
+}
+
+.title-header {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.main-title {
+  font-style: italic;
+  font-size: 2.5em;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+article,
+h5 {
+  font-family: nyt-imperial, georgia, 'times new roman', imes, serif;
+}
+
+article p {
+  font-size: 1.2em;
+  line-height: 1.7;
+  color: #333;
+}
+
+article a {
+  color: rgb(50, 104, 145);
+}
+
+.unlock-more-articles {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.unlock-more-articles hr {
+  width: 20%;
+  border: 0.1px solid lightgray;
+}
+
+.unlock-more-articles p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.news-letter-heading p {
+  color: gray;
+}
+
+.cooking-sign-up section p {
+  width: 75%;
+}
+
+nav .nav-center-items p {
+  border-left: 1px solid gray;
+  height: 17px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.more-in-space {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.more-in-space small {
+  color: gray;
+}
+
+.more-in-space a p {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.editors-pick-section-2 a p {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.theory-of-inflation-section section section p {
+  width: 23%;
+  font-size: 0.8em;
+}
+
+.unlock-more-articles p:first-child {
+  margin-bottom: 0;
+}
+
+.unlock-more-articles p:last-child {
+  margin-top: 0;
+}
+
+.unlock-more-articles a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+}
+
+/* #inflation-section p {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+} */
+
+nav {
+  border: 1px solid lightgray;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 20px;
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 10;
+}
+
+nav .main-logo {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  padding-top: 75px;
+}
+
+nav .nav-center-items {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 17%;
+}
+
+nav .nav-center-items h5 {
+  padding-right: 5px;
+}
+
+.more-in-space a {
+  width: 31%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+.editors-pick-section-2 a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+nav .nav-center-items a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 35%;
+}
+
+.social-icons .no-div-icon {
+  font-size: 1.5em;
+  color: gray;
+}
+
+.social-icons span {
+  background: #ececec;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .nav-buttons {
+  display: flex;
+  flex-basis: 14.3%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cooking-sign-up section button {
+  padding: 5px;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 17%;
+  height: 30px;
+}
+
+nav .nav-buttons button {
+  background: rgb(86, 123, 149);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 0.7em;
+  padding: 5px 10px;
+}
+
+.first-section figure {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+figure figcaption {
+  color: gray;
+  width: 80%;
+}
+
+.first-section figure figcaption span {
+  font-size: 0.8em;
+}
+
+.first-section article a {
+  color: #222;
+}
+
+.editors-pick-section {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editors-pick-section section {
+  width: 76%;
+}
+
+/* CSS float property applied here */
+.editors-pick-section article {
+  width: 63%;
+  float: left;
+  margin-left: 25px;
+}
+
+.editors-pick-section aside {
+  width: 30%;
+}
+
+.new-letter-and-popular-wrapper aside {
+  width: 25%;
+}
+
+.new-letter-and-popular-wrapper aside a {
+  text-decoration: none;
+  font-size: 1.3em;
+  margin: 15px 0;
+  color: black;
+}
+
+.new-letter-and-popular-wrapper aside h5 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+/* CSS float property applied here */
+.editors-pick-section section aside {
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.editors-pick-section section aside h4 {
+  border-bottom: 1px solid lightgray;
+  border-bottom-width: thin;
+  padding-bottom: 10px;
+}
+
+.cooking-sign-up section {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-btn-div section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.theory-of-inflation-section section section {
+  position: relative;
+  top: 170px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .footer-links-wrapper section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.editors-pick-section section aside section {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.special-time-article-section small a {
+  color: #767676;
+}
+
+footer .footer-links-wrapper section a {
+  text-decoration: none;
+  color: black;
+  padding: 2px 0;
+}
+
+.small-footer ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.editors-pick-section section aside section a {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.theory-of-inflation-section {
+  width: 65vw;
+  margin: 0 auto;
+}
+
+.larry-jonathan-heading {
+  width: 65vw;
+  margin: 0 auto;
+  margin-top: 170px;
+}
+
+.larry-jonathan-heading hr {
+  width: 7%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #767676;
+}
+
+.theory-of-inflation-section figure figcaption {
+  color: #767676;
+}
+
+.larry-jonathan-section {
+  padding-top: 20px;
+}
+
+.cooking-sign-up {
+  width: 45vw;
+  margin: 0 auto;
+}
+
+.youtube-embed {
+  width: 45vw;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.space-station-figure {
+  width: 45vw;
+  margin: 0 auto;
+}
+
+.special-time-article-section small {
+  color: #767676;
+}
+
+.comment-btn-div {
+  padding: 30px;
+  width: 45vw;
+  margin: 0 auto;
+}
+
+.go-to-home {
+  color: rgb(50, 104, 145);
+}
+
+.theory-of-inflation-section figure {
+  margin: 0 auto;
+  position: absolute;
+  z-index: -1;
+  width: 65%;
+}
+
+.first-four {
+  margin-bottom: 100px;
+}
+
+/* more in space section stylinh */
+.new-letter-and-popular-wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-in-space-news-letter {
+  width: 70%;
+}
+
+.news-letter-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-letter-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-letter-cards .child-card {
+  width: 32%;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  padding: 15px 15px;
+}
+
+.news-letter-cards .child-card a {
+  text-decoration: none;
+}
+
+.news-letter-cards .child-card i {
+  font-size: 2em;
+  color: black;
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  padding: 5px 5px 5px 10px;
+}
+
+.news-letter-cards .child-card .img-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-letter-cards .child-card h5 {
+  font-weight: 600;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.news-letter-cards .child-card p {
+  color: gray;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.editors-pick-section-2 a small {
+  color: gray;
+}
+
+.news-letter-cards .child-card small {
+  color: gray;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.news-letter-cards .child-card .card-content-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.news-letter-cards .child-card .see-latest {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  font-weight: 700;
+  color: rgb(50, 104, 145);
+}
+
+.more-in-space a img {
+  width: 100%;
+}
+
+.more-in-space-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  padding: 10px 0;
+}
+
+.new-letter-and-popular-wrapper hr {
+  margin-top: 25px;
+  border: 1px solid black;
+  background: black;
+}
+
+/* Grid CSS model applied here */
+
+.editors-pick-section-2 {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1.5em;
+}
+
+.editors-pick-section-2 a img {
+  width: 100%;
+}
+
+.description {
+  text-align: right;
+  width: 100%;
+  display: block;
+}
+
+/* footer styling  */
+
+footer {
+  width: 95vw;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.bigger-footer {
+  width: 95vw;
+  margin: 0 auto;
+  height: 460px;
+}
+
+.bigger-footer-top-hr {
+  width: 80vw;
+  margin-bottom: 1px;
+}
+
+.footer-logo-and-home {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  padding-top: 30px;
+}
+
+footer .footer-links-wrapper {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+footer .footer-links-wrapper .subscribe {
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+  height: 400px;
+}
+
+footer .footer-links-wrapper .subscribe a h5 {
+  margin: 0;
+  padding: 0;
+  padding: 5px 0;
+}
+
+.footer-subscribe-mini-section {
+  border-top: 1px solid lightgray;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.small-footer {
+  width: 84%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-top: 1px solid lightgray;
+  margin-top: 15px;
+}
+
+.small-footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-footer ul li {
+  list-style: none;
+  color: gray;
+  font-size: 0.9em;
+  flex: 1;
+}
+
+.small-footer ul li:first-child {
+  flex: 3;
+}
+
+.small-footer ul .terms {
+  flex: 1;
+}
+
+/* comment cta styling */
+.comment-cta-wrapper {
+  width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.comment-cta-wrapper .comment-cta {
+  width: 40%;
+  background: black;
+  color: white;
+  text-decoration: none;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border-radius: 7px;
+}
+
+/* comment form styling */
+.comment {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.comment form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 60%;
+margin: 0 auto;
+}
+
+.comment h4 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 2em;
+  text-align: center;
+  }
+
+.comment form input{
+  height: 40px;
+  padding-left: 15px;
+  margin: 15px 0;
+  border-radius: 7px;
+}
+
+.comment form textarea {
+  padding-left: 15px;
+  margin: 15px 0;
+  border-radius: 7px;
+}
+
+.comment form select {
+  height: 40px;
+  padding-left: 15px;
+  margin: 15px 0;
+  border-radius: 7px;
+}
+
+.comment form .comment-btn{
+  background: black;
+  color: white;
+  font-weight: 600;
+  width: 20%;
+  padding-left: 10%;
+}
+.comment form .radio {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.comment form .radio input{
+margin-right: 10px;
+height: 20px;
+width: 20px;
+}
