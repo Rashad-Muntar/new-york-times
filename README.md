@@ -21,6 +21,7 @@ A clone of the New York Times Article page
 
 ### Rashad Muntar
 * github - https://github.com/Rashad-Muntar
+* twitter - https://twitter.com/RashadToure
 
 ### Acknowledgements
 * Microverse
